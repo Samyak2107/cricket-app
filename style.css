@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background: url('./assets/cric-bg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.cric-logo {
+    height: auto;
+    width: 100%;
+    max-width: 50px;
+}
+
+.clt-header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(248, 255, 153);
+}
+
+@media (max-width: 512px) {
+    h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 422px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7 {
+    height: 120px;
+    width: 300px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(113, 113, 252);
+    border-radius: 15px;
+    border: 5px solid blue;
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover {
+    height: 130px;
+    width: 310px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.div2 {
+    background-color: rgb(85, 238, 85);
+    border: 5px solid green;
+}
+
+.div3 {
+    background-color: orange;
+    border: 5px solid red;
+}
+
+.div4 {
+    background-color: rgb(240, 72, 72);
+    border: 5px solid brown;
+}
+
+.div5 {
+    background-color: pink;
+    border: 5px solid coral;
+}
+
+.div6 {
+    background-color: rgb(235, 243, 122);
+    border: 5px solid rgb(251, 255, 0);
+}
+
+.div7 {
+    background-color: violet;
+    border: 5px solid purple;
+}
+
+.first-three {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+
+.outer-div {
+    padding: 40px 80px;
+}
+
+.main-head {
+    padding-left: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    padding-right: 2px;
+}
+
+@media(max-width: 460px) {
+    .div1, .div2, .div3, .div4, .div5, .div6, .div7{
+        margin-left: -20px;
+        align-items: center;
+    }
+}
+
+@media(max-width: 400px) {
+    .div1, .div2, .div3, .div4, .div5, .div6, .div7{
+        margin-left: -30px;
+        align-items: center;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.last-div {
+    display: flex;
+    justify-content: center;
+}
