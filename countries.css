@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(to right, rgb(252, 135, 189), rgb(202, 26, 255), rgb(75, 0, 214));
+}
+
 .header {
     display: flex;
     justify-content: center;
