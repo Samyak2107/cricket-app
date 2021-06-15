@@ -6,11 +6,7 @@
 }
 
 body {
-    background: url('./assets/cric-bg.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: linear-gradient(to right, rgb(252, 135, 189), rgb(202, 26, 255), rgb(75, 0, 214));
 }
 
 .header {
